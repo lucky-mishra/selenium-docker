@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Docker Demo]" parallel="tests">
+  <parameter name="model" value="Civic1"/>
+  <parameter name="make" value="Honda1"/>
+  <test name="Registration Page(failed)" parallel="tests">
+    <parameter name="model" value="Civic"/>
+    <parameter name="make" value="Honda"/>
+    <classes>
+      <class name="com.docker.test.HomePageTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.docker.test.HomePageTest -->
+      <class name="com.docker.test.FlightReservation">
+        <methods>
+          <include name="bookFlightTest"/>
+          <include name="loginFlightTest"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+          <include name="registrationFlightTest"/>
+          <include name="logoutFlightTest"/>
+        </methods>
+      </class> <!-- com.docker.test.FlightReservation -->
+    </classes>
+  </test> <!-- Registration Page(failed) -->
+  <test name="Home Page1(failed)" parallel="tests">
+    <parameter name="model" value="camry1"/>
+    <parameter name="make" value="toyota1"/>
+    <classes>
+      <class name="com.docker.test.HomePageTest">
+        <methods>
+          <include name="homeTest"/>
+          <include name="logoutTest"/>
+          <include name="bookTest"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+          <include name="registrationTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.docker.test.HomePageTest -->
+      <class name="com.docker.test.FlightReservation">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.docker.test.FlightReservation -->
+    </classes>
+  </test> <!-- Home Page1(failed) -->
+  <test name="Home Page(failed)" parallel="tests">
+    <parameter name="model" value="camry"/>
+    <parameter name="make" value="toyota"/>
+    <classes>
+      <class name="com.docker.test.HomePageTest">
+        <methods>
+          <include name="homeTest"/>
+          <include name="logoutTest"/>
+          <include name="bookTest"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+          <include name="registrationTest"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.docker.test.HomePageTest -->
+      <class name="com.docker.test.FlightReservation">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.docker.test.FlightReservation -->
+    </classes>
+  </test> <!-- Home Page(failed) -->
+  <test name="Registration Page1(failed)" parallel="tests">
+    <parameter name="model" value="Civic1"/>
+    <parameter name="make" value="Honda1"/>
+    <classes>
+      <class name="com.docker.test.HomePageTest">
+        <methods>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.docker.test.HomePageTest -->
+      <class name="com.docker.test.FlightReservation">
+        <methods>
+          <include name="bookFlightTest"/>
+          <include name="loginFlightTest"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+          <include name="registrationFlightTest"/>
+          <include name="logoutFlightTest"/>
+        </methods>
+      </class> <!-- com.docker.test.FlightReservation -->
+    </classes>
+  </test> <!-- Registration Page1(failed) -->
+</suite> <!-- Failed suite [Docker Demo] -->

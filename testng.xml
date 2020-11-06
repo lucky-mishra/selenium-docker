@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Docker Demo" parallel="tests">
+  <test name= "Home Page">
+   <parameter name = "make" value="toyota" />
+      <parameter name = "model" value="camry" />
+    <classes>
+     <class name="com.docker.test.HomePageTest"/>
+    </classes>
+  </test>
+  <test name= "Home Page1">
+   <parameter name = "make" value="toyota1" />
+      <parameter name = "model" value="camry1" />
+    <classes>
+     <class name="com.docker.test.HomePageTest"/>
+    </classes>
+  </test>
+  <test name= "Registration Page">
+   <parameter name = "make" value="Honda" />
+      <parameter name = "model" value="Civic" />
+    <classes>
+     
+      <class name="com.docker.test.FlightReservation"/>
+    </classes>
+  </test>
+  <test name= "Registration Page1">
+   <parameter name = "make" value="Honda1" />
+      <parameter name = "model" value="Civic1" />
+    <classes>
+     
+      <class name="com.docker.test.FlightReservation"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Docker Demo" duration-ms="30915" started-at="2020-10-14T03:18:13Z" finished-at="2020-10-14T03:18:44Z">
+    <groups>
+    </groups>
+    <test name="Registration Page" duration-ms="10702" started-at="2020-10-14T03:18:13Z" finished-at="2020-10-14T03:18:24Z">
+      <class name="com.docker.test.FlightReservation">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.docker.test.FlightReservation@46d56d67]" name="setUpDriver" is-config="true" duration-ms="2611" started-at="2020-10-13T23:18:13Z" finished-at="2020-10-13T23:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4cf777e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setUpParameters(java.lang.String, java.lang.String)[pri:0, instance:com.docker.test.FlightReservation@46d56d67]" name="setUpParameters" is-config="true" duration-ms="2" started-at="2020-10-13T23:18:16Z" depends-on-methods="com.docker.test.BaseTest.setUpDriver" finished-at="2020-10-13T23:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Civic]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpParameters -->
+        <test-method status="PASS" signature="bookFlightTest()[pri:0, instance:com.docker.test.FlightReservation@46d56d67]" name="bookFlightTest" duration-ms="7848" started-at="2020-10-13T23:18:16Z" finished-at="2020-10-13T23:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightTest -->
+        <test-method status="PASS" signature="loginFlightTest()[pri:0, instance:com.docker.test.FlightReservation@46d56d67]" name="loginFlightTest" duration-ms="4" started-at="2020-10-13T23:18:24Z" finished-at="2020-10-13T23:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlightTest -->
+        <test-method status="PASS" signature="logoutFlightTest()[pri:0, instance:com.docker.test.FlightReservation@46d56d67]" name="logoutFlightTest" duration-ms="3" started-at="2020-10-13T23:18:24Z" finished-at="2020-10-13T23:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFlightTest -->
+        <test-method status="PASS" signature="registrationFlightTest()[pri:0, instance:com.docker.test.FlightReservation@46d56d67]" name="registrationFlightTest" duration-ms="2" started-at="2020-10-13T23:18:24Z" finished-at="2020-10-13T23:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationFlightTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.docker.test.FlightReservation@46d56d67]" name="quitDriver" is-config="true" duration-ms="180" started-at="2020-10-13T23:18:24Z" finished-at="2020-10-13T23:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.docker.test.FlightReservation -->
+    </test> <!-- Registration Page -->
+    <test name="Home Page1" duration-ms="16532" started-at="2020-10-14T03:18:13Z" finished-at="2020-10-14T03:18:30Z">
+      <class name="com.docker.test.HomePageTest">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.docker.test.HomePageTest@18be83e4]" name="setUpDriver" is-config="true" duration-ms="11767" started-at="2020-10-13T23:18:13Z" finished-at="2020-10-13T23:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73ad2d6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="homeTest(java.lang.String, java.lang.String)[pri:0, instance:com.docker.test.HomePageTest@18be83e4]" name="homeTest" duration-ms="4607" started-at="2020-10-13T23:18:25Z" finished-at="2020-10-13T23:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[toyota1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[camry1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="PASS" signature="registrationTest()[pri:0, instance:com.docker.test.HomePageTest@18be83e4]" name="registrationTest" duration-ms="1" started-at="2020-10-13T23:18:29Z" depends-on-methods="com.docker.test.HomePageTest.homeTest" finished-at="2020-10-13T23:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.docker.test.HomePageTest@18be83e4]" name="loginTest" duration-ms="1" started-at="2020-10-13T23:18:29Z" depends-on-methods="com.docker.test.HomePageTest.registrationTest" finished-at="2020-10-13T23:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.docker.test.HomePageTest@18be83e4]" name="logoutTest" duration-ms="2" started-at="2020-10-13T23:18:29Z" depends-on-methods="com.docker.test.HomePageTest.loginTest" finished-at="2020-10-13T23:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="bookTest()[pri:0, instance:com.docker.test.HomePageTest@18be83e4]" name="bookTest" duration-ms="1" started-at="2020-10-13T23:18:29Z" depends-on-methods="com.docker.test.HomePageTest.logoutTest" finished-at="2020-10-13T23:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.docker.test.HomePageTest@18be83e4]" name="quitDriver" is-config="true" duration-ms="120" started-at="2020-10-13T23:18:30Z" finished-at="2020-10-13T23:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.docker.test.HomePageTest -->
+    </test> <!-- Home Page1 -->
+    <test name="Registration Page1" duration-ms="23715" started-at="2020-10-14T03:18:13Z" finished-at="2020-10-14T03:18:37Z">
+      <class name="com.docker.test.FlightReservation">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.docker.test.FlightReservation@3ffc5af1]" name="setUpDriver" is-config="true" duration-ms="17445" started-at="2020-10-13T23:18:13Z" finished-at="2020-10-13T23:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7085bdee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setUpParameters(java.lang.String, java.lang.String)[pri:0, instance:com.docker.test.FlightReservation@3ffc5af1]" name="setUpParameters" is-config="true" duration-ms="1" started-at="2020-10-13T23:18:31Z" depends-on-methods="com.docker.test.BaseTest.setUpDriver" finished-at="2020-10-13T23:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Civic1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpParameters -->
+        <test-method status="PASS" signature="bookFlightTest()[pri:0, instance:com.docker.test.FlightReservation@3ffc5af1]" name="bookFlightTest" duration-ms="6054" started-at="2020-10-13T23:18:31Z" finished-at="2020-10-13T23:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightTest -->
+        <test-method status="PASS" signature="loginFlightTest()[pri:0, instance:com.docker.test.FlightReservation@3ffc5af1]" name="loginFlightTest" duration-ms="2" started-at="2020-10-13T23:18:37Z" finished-at="2020-10-13T23:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlightTest -->
+        <test-method status="PASS" signature="logoutFlightTest()[pri:0, instance:com.docker.test.FlightReservation@3ffc5af1]" name="logoutFlightTest" duration-ms="7" started-at="2020-10-13T23:18:37Z" finished-at="2020-10-13T23:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFlightTest -->
+        <test-method status="PASS" signature="registrationFlightTest()[pri:0, instance:com.docker.test.FlightReservation@3ffc5af1]" name="registrationFlightTest" duration-ms="2" started-at="2020-10-13T23:18:37Z" finished-at="2020-10-13T23:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationFlightTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.docker.test.FlightReservation@3ffc5af1]" name="quitDriver" is-config="true" duration-ms="180" started-at="2020-10-13T23:18:37Z" finished-at="2020-10-13T23:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.docker.test.FlightReservation -->
+    </test> <!-- Registration Page1 -->
+    <test name="Home Page" duration-ms="30915" started-at="2020-10-14T03:18:13Z" finished-at="2020-10-14T03:18:44Z">
+      <class name="com.docker.test.HomePageTest">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.docker.test.HomePageTest@56f4468b]" name="setUpDriver" is-config="true" duration-ms="24629" started-at="2020-10-13T23:18:13Z" finished-at="2020-10-13T23:18:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ce92674]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="homeTest(java.lang.String, java.lang.String)[pri:0, instance:com.docker.test.HomePageTest@56f4468b]" name="homeTest" duration-ms="6085" started-at="2020-10-13T23:18:38Z" finished-at="2020-10-13T23:18:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[toyota]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[camry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="PASS" signature="registrationTest()[pri:0, instance:com.docker.test.HomePageTest@56f4468b]" name="registrationTest" duration-ms="1" started-at="2020-10-13T23:18:44Z" depends-on-methods="com.docker.test.HomePageTest.homeTest" finished-at="2020-10-13T23:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.docker.test.HomePageTest@56f4468b]" name="loginTest" duration-ms="2" started-at="2020-10-13T23:18:44Z" depends-on-methods="com.docker.test.HomePageTest.registrationTest" finished-at="2020-10-13T23:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.docker.test.HomePageTest@56f4468b]" name="logoutTest" duration-ms="2" started-at="2020-10-13T23:18:44Z" depends-on-methods="com.docker.test.HomePageTest.loginTest" finished-at="2020-10-13T23:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="bookTest()[pri:0, instance:com.docker.test.HomePageTest@56f4468b]" name="bookTest" duration-ms="2" started-at="2020-10-13T23:18:44Z" depends-on-methods="com.docker.test.HomePageTest.logoutTest" finished-at="2020-10-13T23:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTest -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.docker.test.HomePageTest@56f4468b]" name="quitDriver" is-config="true" duration-ms="172" started-at="2020-10-13T23:18:44Z" finished-at="2020-10-13T23:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.docker.test.HomePageTest -->
+    </test> <!-- Home Page -->
+  </suite> <!-- Docker Demo -->
+</testng-results>
