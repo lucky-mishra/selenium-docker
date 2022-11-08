@@ -7,4 +7,3 @@ COPY target/libs libs
 COPY testng.xml testng.xml
 RUN wget https://s3.amazonaws.com/selenium-docker/healthcheck/healthcheck.sh
 ENTRYPOINT sh healthcheck.sh
-
